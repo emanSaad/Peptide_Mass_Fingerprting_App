@@ -6,13 +6,13 @@
 Protein identification using Mass Spectrometry (MS) is essential in the study of proteomics and one of the most popular methods for protein identification using MS data. This project provides a free computational tool for protein identification using PMF data. It introduces a new scoring method to
 help in identifying the correct protein. 
 
-a friendly graphical user interface is provided to allow file and project management. In addition, the application works with single or multiple query files to support different work scales.
+A friendly graphical user interface is provided to allow file and project management. In addition, the application works with single or multiple query files to support different work scales.
 
 
 ![PMF_App interface](images/interface.png)
 
 
-Before matching MS masses and database masses, and calculating the scores, there are steps that affect the results and should be performed in advance for both MS masses and database masses:
+Before matching MS masses and database masses, and calculating the scores, there are steps that affect the results and should be implemetnted in advance for both MS masses and database masses: 
 
 - ***Removing Contaminants from MS Masses.***
 - ***Digestion:*** Digestion is the task of cutting the protein into peptides by using a specific enzyme.
