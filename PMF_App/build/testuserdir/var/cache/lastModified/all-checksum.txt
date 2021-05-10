@@ -1,0 +1,9 @@
+/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/platform=1485208830000
+cluster./Users/faroq/Dropbox/FreePMF/build/cluster=1524402948000
+cluster./Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/platform=1485208830000
+user=1524402948000
+crc=7
+locale=en_US
+branding=freepmf
+java.version=1.8.0_111
+java.vm.version=25.111-b14

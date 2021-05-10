@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-uald-pt-pmfgui-MainTopComponent.shadow">
+                <!--org.ualg.pt.pmfgui.MainTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-uald-pt-pmfgui-MainTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="MainTopComponent.settings">
+                <!--org.ualg.pt.pmfgui.MainTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.ualg.pt.pmfgui.MainTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="MainTopComponent.wstcref">
+                    <!--org.ualg.pt.pmfgui.MainTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MainTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-uald-pt-pmfgui-MainTopComponent.instance">
+                <!--org.ualg.pt.pmfgui.MainTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.ualg.pt.pmfgui.MainTopComponent"/>
+                <attr name="preferredID" stringvalue="MainTopComponent"/>
+                <attr
+                    bundlevalue="org.ualg.pt.pmfgui.Bundle#CTL_MainAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_uald_pt_pmfgui">
+                <file name="Main" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.ualg.pt.pmfgui.MainTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.uald.pt.pmfgui//Main//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="ualg">
+                    <folder name="pt">
+                        <folder name="pmfgui">
+                            <file name="MainTopComponent">
+                                <!--org.ualg.pt.pmfgui.MainTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//org_uald_pt_pmfgui/Main.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_uald_pt_pmfgui">
+                <file name="Main.instance">
+                    <!--org.ualg.pt.pmfgui.MainTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.ualg.pt.pmfgui.MainTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.ualg.pt.pmfgui.MainTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
